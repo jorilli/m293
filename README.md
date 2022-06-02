@@ -1,6 +1,6 @@
 # m293
 
-Project Idea
+## Project Idea
 --------------
 
 Year in Review 
