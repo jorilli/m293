@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Year_in_Review" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+    <deployment type="dockerfile">
+      <settings>
+        <option name="command" value="run" />
+        <option name="containerName" value="Year_in_Review" />
+        <option name="sourceFilePath" value="index.html" />
+      </settings>
+    </deployment>
+    <method v="2" />
+  </configuration>
+</component>

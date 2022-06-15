@@ -1,0 +1,34 @@
+/*
+.test {
+    height: 100pc;
+    width: 100pc;
+    background: radial-gradient(#ffe3d5, #eb8f5d, #d15600, #883b0c);
+}
+*/
+html{
+    background-color: #883b0c;
+}
+.orange {
+    height: 75vh;
+    width: 180vh;
+    margin-left: 20vh;
+    margin-top: 10vh;
+    background-color: #d15600;
+    padding-top: 8vh;
+}
+
+.lightOrange {
+    height: 60vh;
+    width: 140vh;
+    background-color: #eb8f5d;
+    margin-left: 20vh;
+    padding-top: 10vh;
+}
+
+.lighterOrange {
+    height: 30%;
+    width: 30%;
+    background-color: #ffe3d5;
+    margin-left: 35%;
+}
+

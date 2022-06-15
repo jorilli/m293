@@ -1,0 +1,12 @@
+.body {
+    font-family: "open sans extra-bold";
+    font-size: 800px;
+    background-color: aliceblue;
+    align-content: center;
+
+}
+.h1 {
+    font-family: "open sans extra-bold";
+    color: darkblue;
+    align-self: center;
+}
