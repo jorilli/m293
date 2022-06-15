@@ -28,7 +28,6 @@ body {
     color: white;
     font-style: initial;
     font-weight: bold;
-    font-size: 30px;
 }
 
 #profilePic{
@@ -46,22 +45,4 @@ body {
 #logo{
     width: 30vh;
     margin-top: 10%;
-}
-
-h3{
-    font-size: 25px;
-}
-
-a{
-    font-size: 15px;
-}
-
-li{
-    font-size: 20px;
-}
-
-button{
-    background-color: #49436b;
-    color: white;
-    border-width: 1px;
 }
