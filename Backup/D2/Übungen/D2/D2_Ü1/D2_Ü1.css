@@ -1,0 +1,37 @@
+section {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-gap: 1em;
+}
+
+div {
+    background-color: silver;
+    text-align: center;
+    font-size: 2rem;
+    padding: 1em;
+}
+
+div.wide {
+    grid-column: 2 / span 2;
+}
+
+div.full {
+    grid-column: 1 / 4;
+}
+
+div.high {
+    grid-row: 1 / span 2;
+}
+
+img {
+     max-width: 55vh;
+     min-width: 55vh;
+}
+hr {
+    background-color: black;
+    max-width: 250px;
+
+}
+h1 {
+    margin-left: 90vh;
+}
