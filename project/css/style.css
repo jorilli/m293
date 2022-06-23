@@ -1,6 +1,7 @@
-html{
+html {
     font-family: Arial;
 }
+
 body {
     position: relative;
     margin: 0;
@@ -14,14 +15,13 @@ body {
     visibility: visible;
 }
 
-#bannerBorder{
+#bannerBorder {
     width: 1200%;
     height: 5px;
     background-color: #8c0000;
-
 }
 
-#banner{
+#banner {
     display: grid;
     grid-template-columns: 20vh 170vh 40vh;
     background-color: #d15600;
@@ -31,36 +31,36 @@ body {
     font-size: 30px;
 }
 
-#profilePic{
+#profilePic {
     width: 30px;
 }
 
-.yourProfil{
+.yourProfil {
     margin-top: 20%;
 }
 
-.mainInformation{
-    margin-left: 5%;
-}
-
-#logo{
+#logo {
     width: 30vh;
     margin-top: 10%;
 }
 
-h3{
+main {
+    margin-left: 5%;
+}
+
+h3 {
     font-size: 25px;
 }
 
-a{
+a {
     font-size: 15px;
 }
 
-li{
+li {
     font-size: 20px;
 }
 
-button{
+button {
     background-color: #49436b;
     color: white;
     border-width: 1px;

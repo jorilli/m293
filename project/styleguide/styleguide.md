@@ -17,6 +17,10 @@ Arial
 
 ### Header
 
+width:  100%  
+height: 25vh  
+border-bottom-width: 5px  
+
 h1 
 
 ```css
@@ -29,6 +33,9 @@ h1 {
 ```
 
 ### Main
+
+width: 80%  
+margin-left: 5%
 
 h3 
 
@@ -56,6 +63,10 @@ ul li{
 
 ### Menu
 
+width:  120px    
+height: 100%  
+
+
 ul/li
 
 ```css
@@ -63,3 +74,15 @@ ul li{
     font-size: 25px;
 }
 ```
+
+### Logo
+
+width: 70px  
+height: 70px
+
+
+# Wireframe
+
+![img_3.png](img_3.png)
+![img_4.png](img_4.png)
+![img_5.png](img_5.png)
