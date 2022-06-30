@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Year in Review</title>
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/script.js"></script>
+    <link rel="icon" type="image/x-icon" href="../img/logo.png">
+</head>
+<body>
+<banner>
+    <div id="banner">
+        <div>
+            <input type="checkbox" id="menu"/>
+            <label for="menu" class="menu" id="setting">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <nav class="nav">
+                <ul class="ulMenu">
+                    <li class="liMenu">Your Profile</li>
+                    <li class="liMenu">Your Review 2022</li>
+                    <li class="liMenu">Your Review 2020</li>
+                    <a href="login.html">
+                        <li class="liMenu">Login</li>
+                    </a></ul>
+            </nav>
+        </div>
+        <div>
+            <h1 id="title">Year in Review</h1>
+        </div>
+        <div>
+            <img src="../img/logo.png" alt="Logo" id="logo">
+        </div>
+        <span id="bannerBorder"></span>
+    </div>
+</banner>
+
+<mainInformations class="mainInformation">
+    <main>
+        <h3>Log In</h3>
+        <form action="../index.html">
+            <div>
+                <div>
+                    <label for="gender">Gender*</label>
+                </div>
+                <div>
+                    <label for="firstName">First Name*</label>
+                </div>
+                <div>
+                    <label for="name">Name*</label>
+                </div>
+                <div>
+                    <label for="address">Address*</label>
+                </div>
+                <div>
+
+                    <label for="plz">PLZ*</label>
+                </div>
+                <div>
+
+                    <label for="place">Place*</label>
+                </div>
+                <div>
+
+                    <label for="country">Country*</label>
+                </div>
+                <div>
+
+                    <label for="email">e-Mail*</label>
+                </div>
+                <div>
+
+                    <label for="userName">Username*</label>
+                </div>
+                <div>
+
+                    <label for="passWord"> Password*</label>
+                </div>
+                <div>
+                    <button type="submit">Register</button>
+                    <p>*Mandatory fields must be filled out</p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <select name="gender" id="gender">
+                        <option value="female">Female</option>
+                        <option value="male">Male</option>
+                        <option value="nonBinary">Non-Binary</option>
+                        <option value="undefinded">Don't want to say</option>
+                    </select>
+                </div>
+                <div>
+                    <input type="text" id="name" required>
+                </div>
+                <div>
+                    <input type="text" id="firstName" required>
+                </div>
+                <div>
+                    <input type="text" id="address">
+                </div>
+                <div>
+                    <input type="text" id="plz">
+                </div>
+                <div>
+                    <input type="text" id="place">
+                </div>
+                <div>
+                    <input type="text" id="country">
+                </div>
+                <div>
+                    <input type="email" id="email" required>
+                </div>
+                <div>
+                    <input type="text" id="userName" required>
+                </div>
+                <div>
+                    <input type="password" id="passWord" required>
+                </div>
+            </div>
+        </form>
+    </main>
+</mainInformations>
+</body>
+</html>

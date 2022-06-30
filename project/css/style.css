@@ -15,10 +15,15 @@ body {
     visibility: visible;
 }
 
+#title{
+    margin-top: 1%;
+}
+
 #bannerBorder {
     width: 1200%;
     height: 5px;
     background-color: #8c0000;
+    margin-top: -35%;
 }
 
 #banner {
@@ -29,6 +34,7 @@ body {
     font-style: initial;
     font-weight: bold;
     font-size: 30px;
+    height: 20vh;
 }
 
 #profilePic {
@@ -41,7 +47,7 @@ body {
 
 #logo {
     width: 30vh;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 main {
@@ -58,10 +64,22 @@ a {
 
 li {
     font-size: 20px;
+    color: white;
+    text-underline: none;
+}
+p{
+    font-size: 15px;
+}
+label{
+    font-size: 18px;
 }
 
 button {
     background-color: #49436b;
     color: white;
     border-width: 1px;
+}
+form{
+    display: flex;
+    flex-direction: row;
 }
