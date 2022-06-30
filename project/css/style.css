@@ -83,3 +83,99 @@ form{
     display: flex;
     flex-direction: row;
 }
+/* Responsive Styles */
+
+@media screen and (max-width: 575px) {
+    html {
+        font-family: Arial;
+    }
+
+    body {
+        position: relative;
+        margin: 0;
+        padding: 0;
+        font-size: 20%;
+        font-smooth: auto;
+        font-weight: 300;
+        line-height: 5vh;
+        color: rgb(0, 0, 0);
+        overflow-x: hidden;
+        visibility: visible;
+    }
+    input {
+        margin-right: 2vh;
+        margin-top: 1vh;
+        width: 23vh;
+        height: 3vh;
+    }
+    #title{
+        margin-top: 10%;
+        margin-left: -8%;
+    }
+
+    #bannerBorder {
+        width: 330%;
+        height: 3px;
+        background-color: #8c0000;
+        margin-top: -15%;
+    }
+
+    #banner {
+        display: grid;
+        grid-template-columns: 14vh 19vh 15vh;
+        background-color: #d15600;
+        color: white;
+        font-style: initial;
+        font-weight: bold;
+        font-size: 20px;
+        height: 15vh;
+    }
+
+    #profilePic {
+        width: 30px;
+    }
+
+    .yourProfil {
+        margin-top: 20%;
+    }
+
+    #logo {
+        width: 12vh;
+        margin-top: 50%;
+    }
+
+    main {
+        margin-left: 5%;
+    }
+
+    h3 {
+        font-size: 35px;
+    }
+
+    a {
+        font-size: 25px;
+    }
+
+    li {
+        font-size: 45px;
+        color: white;
+        text-underline: none;
+    }
+    p{
+        font-size: 25px;
+    }
+    label{
+        font-size: 28px;
+    }
+
+    button {
+        background-color: #49436b;
+        color: white;
+        border-width: 2px;
+        font-size: 20px;
+    }
+    form{
+        display: flex;
+        flex-direction: row;
+    }
+}
