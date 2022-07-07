@@ -15,7 +15,12 @@ body {
     visibility: visible;
 }
 
-#title{
+#feelings {
+    display: grid;
+    grid-template-columns: 15vh 15vh;
+}
+
+#title {
     margin-top: 1%;
 }
 
@@ -67,10 +72,12 @@ li {
     color: white;
     text-underline: none;
 }
-p{
+
+p {
     font-size: 15px;
 }
-label{
+
+label {
     font-size: 18px;
 }
 
@@ -79,9 +86,15 @@ button {
     color: white;
     border-width: 1px;
 }
-form{
-    display: flex;
-    flex-direction: row;
+
+form {
+    display: grid;
+    grid-template-columns: 50vh 50vh;
+}
+
+#separateGrid {
+    display: grid;
+    grid-template-columns: 50vh 50vh;
 }
 
 /* Responsive Styles */
@@ -95,7 +108,6 @@ form{
         position: relative;
         margin: 0;
         padding: 0;
-        font-size: 20%;
         font-smooth: auto;
         font-weight: 300;
         line-height: 5vh;
@@ -103,28 +115,33 @@ form{
         overflow-x: hidden;
         visibility: visible;
     }
+    select{
+        font-size: 90%;
+        width: 13.8vh;
+    }
     input {
         margin-right: -3vh;
         margin-top: 1vh;
-        width: 8vh;
+        width: 13vh;
         height: 2.5vh;
     }
-    #title{
+
+    #title {
         margin-top: 10%;
         margin-left: -8%;
     }
 
     #bannerBorder {
-        width: 330%;
+        width: 355.5%;
         height: 3px;
         background-color: #8c0000;
-        margin-top: -16%;
+        margin-top: -14%;
     }
 
     #banner {
         display: grid;
-        grid-template-columns: 14vh 19vh 15vh;
-        font-size: 2vh;
+        grid-template-columns: 13vh 16vh 14vh;
+        font-size: 1.75vh;
         background-color: #d15600;
         color: white;
         font-style: initial;
@@ -162,9 +179,11 @@ form{
         color: white;
         text-underline: none;
     }
+
     p {
         font-size: 25px;
     }
+
     label {
         font-size: 2.25vh;
     }
@@ -175,8 +194,27 @@ form{
         border-width: 2px;
         font-size: 20px;
     }
+
     form {
-        display: flex;
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: 22vh 22vh;
+    }
+
+    #separateGrid {
+        display: grid;
+        grid-template-columns: 50vh;
+    }
+    #feelings{
+        display: grid;
+        grid-template-columns: 15vh 18vh;
+    }
+    #good{
+        margin-left: -5vh;
+    }
+    p{
+        font-size: 70%;
+    }
+    #agb{
+        margin-left: -5vh;
     }
 }

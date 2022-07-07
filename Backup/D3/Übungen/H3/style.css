@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#gamesPlayedBeforeSelection {
+    display: flex;
+    flex-direction: row;
+}
+#hiddenOtherGame {
+    display: none;
+}
+#gamesPlayedBeforeSelection > div {
+    display: flex;
+    flex-direction: column;
+}
+

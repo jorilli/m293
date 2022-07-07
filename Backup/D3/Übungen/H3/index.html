@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Computergames</title>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<h1 id="i">Computer Games</h1>
+<form>
+    <div id="favourite">
+        <label for="favouriteGame">Choose your favourite Game:</label>
+        <select name="games" id="favouriteGame" onchange="showTextField()">
+            <optgroup label="Shooter Games ">
+                <option value="callOfDuty">Call Of Duty</option>
+                <option value="valorante">Valorante</option>
+            </optgroup>
+            <optgroup label="Action Games">
+                <option value="residentEvil">Resident Evil</option>
+                <option value="godOfWar">God Of War</option>
+            </optgroup>
+            <optgroup label="Adventure Games">
+                <option value="lifeIsStrange">Life Is Strange</option>
+                <option value="legendOfZelda">Legend Of Zelda</option>
+            </optgroup>
+            <optgroup label="Sandbox Games">
+                <option value="minecraft">Minecraft</option>
+                <option value="hitman">Hitman</option>
+            </optgroup>
+            <optgroup label="Role Playing Games">
+                <option value="dungeonAndDragons">D&D</option>
+                <option value="assassinsCreed">Assassin's Creed</option>
+            </optgroup>
+            <optgroup label="Other">
+                <option value="otherGame">Other</option>
+            </optgroup>
+        </select>
+    </div>
+    <div id="hiddenOtherGame">
+        <label for="otherGame">Other</label>
+        <input type="text" id="otherGame" placeholder="yourGame">
+    </div>
+    <fieldset>
+        <legend>Select the games you played before:</legend>
+        <div id="gamesPlayedBeforeSelection">
+            <div>
+                <div>
+                    <input type="checkbox" value="callOfDuty"><label>Call Of Duty</label>
+                </div>
+                <div>
+                    <input type="checkbox" value="valorant"><label>Valorant</label>
+                </div>
+                <div>
+                    <input type="checkbox" value="residentEvil"><label>Resident Evil</label>
+                </div>
+                <div>
+                    <input type="checkbox" value="godOfWar"><label>God Of War</label>
+                </div>
+                <div>
+                    <input type="checkbox" value="lifeIsStrange"><label>Life Is Strange</label>
+                </div>
+                <div>
+                    <input type="checkbox" value="legendOfZelda"><label>Legend Of Zelda</label>
+                </div>
+                <div>
+                    <input type="checkbox" value="minecraft"><label>Minecraft</label>
+                </div>
+                <div>
+                    <input type="checkbox" value="hitman"><label>Hitman</label>
+                </div>
+                <div>
+                    <input type="checkbox" value="d&d"><label>D&D</label>
+                </div>
+                <div>
+                    <input type="checkbox" value="assasinsCreed"><label>Assasin's Creed</label>
+                </div>
+            </div>
+        </div>
+    </fieldset>
+    <div>
+        <label for="img">Select image of your favourite game:</label>
+        <input type="file" id="img" name="img" accept="image/*">
+    </div>
+    <input type="submit">
+</form>
+</body>
+</html>

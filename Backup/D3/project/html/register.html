@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8" content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Year in Review</title>
+    <link href="../css/menu.css" rel="stylesheet">
+    <link href="../css/styleRegister.css" rel="stylesheet">
+    <script src="../js/script.js"></script>
+    <link href="../img/logo.png" rel="icon" type="image/x-icon">
+</head>
+<body>
+<banner>
+    <div id="banner">
+        <div>
+            <input id="menu" type="checkbox"/>
+            <label class="menu" for="menu" id="setting">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <nav class="nav">
+                <ul class="ulMenu">
+                    <li class="liMenu">Your Profile</li>
+                    <li class="liMenu">Your Review 2022</li>
+                    <li class="liMenu">Your Review 2020</li>
+                    <a href="login.html">
+                        <li class="liMenu">Login</li>
+                    </a></ul>
+            </nav>
+        </div>
+        <div>
+            <h1 id="title">Year in Review</h1>
+        </div>
+        <div>
+            <img alt="Logo" id="logo" src="../img/logo.png">
+        </div>
+        <span id="bannerBorder"></span>
+    </div>
+</banner>
+
+<mainInformations class="mainInformation">
+    <main>
+        <h3>Register</h3>
+        <form action="sucessful.html" id="form">
+            <div>
+                <div>
+                    <label for="gender">Gender*</label>
+                </div>
+                <div>
+                    <label for="firstName">First Name*</label>
+                </div>
+                <div>
+                    <label for="name">Name*</label>
+                </div>
+                <div>
+                    <label for="address">Address*</label>
+                </div>
+                <div>
+
+                    <label for="plz">PLZ*</label>
+                </div>
+                <div>
+
+                    <label for="place">Place*</label>
+                </div>
+                <div>
+
+                    <label for="country">Country*</label>
+                </div>
+                <div>
+
+                    <label for="email">e-Mail*</label>
+                </div>
+                <div>
+
+                    <label for="userName">Username*</label>
+                </div>
+                <div>
+
+                    <label for="passWord"> Password*</label>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <select id="gender" name="gender">
+                        <option value="female">Female</option>
+                        <option value="male">Male</option>
+                        <option value="nonBinary">Non-Binary</option>
+                        <option value="undefinded">Don't want to say</option>
+                    </select>
+                </div>
+                <div>
+                    <input id="name" required type="text">
+                </div>
+                <div>
+                    <input id="firstName" required type="text">
+                </div>
+                <div>
+                    <input id="address" type="text">
+                </div>
+                <div>
+                    <input id="plz" type="text">
+                </div>
+                <div>
+                    <input id="place" type="text">
+                </div>
+                <div>
+                    <input id="country" type="text">
+                </div>
+                <div>
+                    <input id="email" required type="email">
+                </div>
+                <div>
+                    <input id="userName" required type="text">
+                </div>
+                <div>
+                    <input id="passWord" required type="password">
+                </div>
+            </div>
+            <div id="separateGrid">
+                <div>
+                    <label for="feelings">How do you feel today?</label>
+                </div>
+                <div id="feelings">
+                    <div>
+                        <input id="good" name="mood" type="radio" value="good">
+                        <label for="good">Good</label>
+                    </div>
+                    <div>
+                        <input id="bad" name="mood" type="radio" value="bad">
+                        <label for="bad">Bad</label>
+                    </div>
+                </div>
+                <div>
+                    <label for="agb">Please accept the user agreement.</label>
+                    <input id="agb" required type="checkbox">
+                </div>
+                <div>
+                    <button type="submit">Register</button>
+                    <p>*Mandatory fields must be filled out</p>
+                </div>
+            </div>
+        </form>
+    </main>
+</mainInformations>
+</body>
+</html>
