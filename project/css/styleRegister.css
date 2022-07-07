@@ -115,16 +115,16 @@ form{
     }
 
     #bannerBorder {
-        width: 270%;
+        width: 330%;
         height: 3px;
         background-color: #8c0000;
-        margin-top: -15%;
+        margin-top: -16%;
     }
 
     #banner {
         display: grid;
         grid-template-columns: 14vh 19vh 15vh;
-        font-size: 1.75vh;
+        font-size: 2vh;
         background-color: #d15600;
         color: white;
         font-style: initial;
