@@ -86,3 +86,7 @@ height: 70px
 ![img_3.png](img_3.png)
 ![img_4.png](img_4.png)
 ![img_5.png](img_5.png)
+
+# Breakpoints
+
+Our Break Point is at 575px

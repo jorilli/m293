@@ -79,16 +79,6 @@
 
                     <label for="passWord"> Password*</label>
                 </div>
-                <div>
-                    <label for="feelings">How do you feel today?</label>
-                </div>
-                <div>
-                    <label for="agb">Please accept the user agreement.</label>
-                </div>
-                <div>
-                    <button type="submit">Register</button>
-                    <p>*Mandatory fields must be filled out</p>
-                </div>
             </div>
             <div>
                 <div>
@@ -126,18 +116,28 @@
                 <div>
                     <input id="passWord" required type="password">
                 </div>
+            </div>
+            <div id="separateGrid">
+                <div>
+                    <label for="feelings">How do you feel today?</label>
+                </div>
                 <div id="feelings">
                     <div>
+                        <input id="good" name="mood" type="radio" value="good">
                         <label for="good">Good</label>
-                        <input id="good" type="radio" value="good" name="mood">
                     </div>
                     <div>
+                        <input id="bad" name="mood" type="radio" value="bad">
                         <label for="bad">Bad</label>
-                        <input id="bad" type="radio" value="bad" name="mood">
                     </div>
                 </div>
                 <div>
+                    <label for="agb">Please accept the user agreement.</label>
                     <input id="agb" required type="checkbox">
+                </div>
+                <div>
+                    <button type="submit">Register</button>
+                    <p>*Mandatory fields must be filled out</p>
                 </div>
             </div>
         </form>
