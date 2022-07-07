@@ -40,8 +40,8 @@
 
 <mainInformations class="mainInformation">
     <main>
-        <h3>Log In</h3>
-        <form action="../index.html">
+        <h3>Register</h3>
+        <form action="sucessful.html" id="form">
             <div>
                 <div>
                     <label for="gender">Gender*</label>
@@ -78,6 +78,12 @@
                 <div>
 
                     <label for="passWord"> Password*</label>
+                </div>
+                <div>
+                    <label for="feelings">How do you feel today?</label>
+                </div>
+                <div>
+                    <label for="agb">Please accept the user agreement.</label>
                 </div>
                 <div>
                     <button type="submit">Register</button>
@@ -120,7 +126,7 @@
                 <div>
                     <input id="passWord" required type="password">
                 </div>
-                <div>
+                <div id="feelings">
                     <div>
                         <label for="good">Good</label>
                         <input id="good" type="radio" value="good" name="mood">
