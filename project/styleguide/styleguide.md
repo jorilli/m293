@@ -21,8 +21,6 @@ width:  100%
 height: 25vh  
 border-bottom-width: 5px  
 
-h1 
-
 ```css
 h1 {
     color: white;
@@ -37,7 +35,6 @@ h1 {
 width: 80%  
 margin-left: 5%
 
-h3 
 
 ```css
 h3{
@@ -45,7 +42,6 @@ h3{
 }
 ```
 
-a
 
 ```css
 a{
@@ -89,4 +85,37 @@ height: 70px
 
 # Breakpoints
 
-Our Break Point is at 575px
+Our Break Point is at 575px.
+If the screen is small or equal to 575px the layout automatically changes to fit the screen of a phone.
+It fits a screen of a IPhone XR. (414x896)
+If the screen is larger than 575px the layout uses the desktop version.
+
+## Changes
+
+### h3
+font-size: 35px
+
+### a 
+
+font-size: 25px
+
+### li
+
+font-size: 45px
+
+### p
+
+font-size: 25px
+
+### label
+
+font-size: 2.75vh
+
+### button 
+
+border-width: 2px
+font-size: 20px
+
+### main 
+
+margin-left: 5%
