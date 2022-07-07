@@ -21,9 +21,9 @@ body {
 
 #bannerBorder {
     width: 1200%;
-    height: 15px;
+    height: 5px;
     background-color: #8c0000;
-    margin-top: -13%;
+    margin-top: -35%;
 }
 
 #banner {
@@ -55,11 +55,11 @@ main {
 }
 
 h3 {
-    font-size: 120px;
+    font-size: 25px;
 }
 
 a {
-    font-size: 80px;
+    font-size: 15px;
 }
 
 li {
@@ -68,7 +68,7 @@ li {
     text-underline: none;
 }
 p{
-    font-size: 50px;
+    font-size: 20px;
 }
 label{
     font-size: 18px;
