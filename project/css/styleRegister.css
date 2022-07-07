@@ -104,10 +104,10 @@ form{
         visibility: visible;
     }
     input {
-        margin-right: 3vh;
+        margin-right: -3vh;
         margin-top: 1vh;
-        width: 23vh;
-        height: 3vh;
+        width: 8vh;
+        height: 2.5vh;
     }
     #title{
         margin-top: 10%;
@@ -115,7 +115,7 @@ form{
     }
 
     #bannerBorder {
-        width: 330%;
+        width: 270%;
         height: 3px;
         background-color: #8c0000;
         margin-top: -15%;
@@ -124,11 +124,11 @@ form{
     #banner {
         display: grid;
         grid-template-columns: 14vh 19vh 15vh;
+        font-size: 1.75vh;
         background-color: #d15600;
         color: white;
         font-style: initial;
         font-weight: bold;
-        font-size: 20px;
         height: 15vh;
     }
 
@@ -165,17 +165,8 @@ form{
     p {
         font-size: 25px;
     }
-    #topP {
-        margin-left: -40vh;
-        margin-top: 15vh;
-    }
-
-    .pForgetPW{
-        margin-left: -40vh;
-    }
-
     label {
-        font-size: 2.75vh;
+        font-size: 2.25vh;
     }
 
     button {

@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
-    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Year in Review</title>
-    <link rel="stylesheet" href="../css/menu.css">
-    <link rel="stylesheet" href="../css/style.css">
+    <link href="../css/menu.css" rel="stylesheet">
+    <link href="../css/styleRegister.css" rel="stylesheet">
     <script src="../js/script.js"></script>
-    <link rel="icon" type="image/x-icon" href="../img/logo.png">
+    <link href="../img/logo.png" rel="icon" type="image/x-icon">
 </head>
 <body>
 <banner>
     <div id="banner">
         <div>
-            <input type="checkbox" id="menu"/>
-            <label for="menu" class="menu" id="setting">
+            <input id="menu" type="checkbox"/>
+            <label class="menu" for="menu" id="setting">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -32,7 +32,7 @@
             <h1 id="title">Year in Review</h1>
         </div>
         <div>
-            <img src="../img/logo.png" alt="Logo" id="logo">
+            <img alt="Logo" id="logo" src="../img/logo.png">
         </div>
         <span id="bannerBorder"></span>
     </div>
@@ -86,7 +86,7 @@
             </div>
             <div>
                 <div>
-                    <select name="gender" id="gender">
+                    <select id="gender" name="gender">
                         <option value="female">Female</option>
                         <option value="male">Male</option>
                         <option value="nonBinary">Non-Binary</option>
@@ -94,31 +94,44 @@
                     </select>
                 </div>
                 <div>
-                    <input type="text" id="name" required>
+                    <input id="name" required type="text">
                 </div>
                 <div>
-                    <input type="text" id="firstName" required>
+                    <input id="firstName" required type="text">
                 </div>
                 <div>
-                    <input type="text" id="address">
+                    <input id="address" type="text">
                 </div>
                 <div>
-                    <input type="text" id="plz">
+                    <input id="plz" type="text">
                 </div>
                 <div>
-                    <input type="text" id="place">
+                    <input id="place" type="text">
                 </div>
                 <div>
-                    <input type="text" id="country">
+                    <input id="country" type="text">
                 </div>
                 <div>
-                    <input type="email" id="email" required>
+                    <input id="email" required type="email">
                 </div>
                 <div>
-                    <input type="text" id="userName" required>
+                    <input id="userName" required type="text">
                 </div>
                 <div>
-                    <input type="password" id="passWord" required>
+                    <input id="passWord" required type="password">
+                </div>
+                <div>
+                    <div>
+                        <label for="good">Good</label>
+                        <input id="good" type="radio" value="good" name="mood">
+                    </div>
+                    <div>
+                        <label for="bad">Bad</label>
+                        <input id="bad" type="radio" value="bad" name="mood">
+                    </div>
+                </div>
+                <div>
+                    <input id="agb" required type="checkbox">
                 </div>
             </div>
         </form>
